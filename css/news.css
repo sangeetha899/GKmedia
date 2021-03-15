@@ -1,0 +1,119 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* header */
+ ul.navbar-nav {
+    margin-left: auto;
+}
+ li.nav-item {
+   margin-left: 51px;
+}
+ 
+#topnav .topnav-bar .search-container{
+    float:right;
+    margin-top: 6px;
+    margin-right: 28px;
+}
+#topnav .topnav-bar .preamble {
+    display: flex;
+    float: right;
+    margin-top: 8px;
+}
+#topnav .topnav-bar .preamble p{
+    color:aliceblue;
+    margin-right: 25px;
+}
+#topnav .topnav-bar .preamble a{
+    text-decoration: none;
+}
+#topnav .topnav-bar .social-media-logo {
+    float: right;
+    margin-top: 8px;
+}
+#topnav .topnav-bar{
+    background-color:#f7057e;
+    height: 39px;
+}
+#topnav .topnav-bar i.fa.fa-facebook-square,#topnav .topnav-bar  i.fa.fa-twitter-square{
+    color: aliceblue;
+    margin-right: 31px;
+    font-size: 28px;
+}
+.header-triangle{
+    width: 14%;
+    margin-top: -109px;
+    position: absolute;
+}
+/* end of header */
+/*column grid */
+#topnews .topnews-content {
+    background-color: #000000;
+}
+#topnews .topnews-content h3{
+    color: #ffffff;
+}
+#topnews .topnews-content .content-right img{
+    height: 140px;
+}
+#topnews .topnews-content .content-right .block1,#topnews .topnews-content .content-right .block2,#topnews .topnews-content .content-right .block3{
+    display: flex;
+    margin-top: 40px;
+}
+#topnews .topnews-content .content-right .block1-content,#topnews .topnews-content .content-right .block2-content,#topnews .topnews-content .content-right .block3-content{
+    margin-left: 65px;
+   color: #ffffff;
+}
+#topnews .topnews-content .content-left video {
+    max-width: 100%;
+    margin-top: 15px;
+    
+}
+/* column grid */
+
+
+
+
+/* media query */
+/* mobile phones */
+@media (max-width: 480px) { 
+    .header-triangle{
+        display:none;
+    }
+    #topnav .topnav-bar .search-container{
+        display:none;
+    }
+    
+} 
+/* tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+    .header-triangle{
+        display:none;
+    }
+    
+} 
+/* ipad  */
+@media (min-width: 768px) and (max-width: 1024px){ 
+    .header-triangle{
+        display:none;
+    }
+    li.nav-item {
+        margin-left: 24px;
+    }
+} 
+
+/* ipad pro */
+@media (min-width: 1024px) and (max-width: 1366px){
+    li.nav-item {
+        margin-left: 54px;
+    }
+}
+    /* galaxy S5 */
+@media (min-width: 360px) and (max-width: 640px){
+    #topnav .topnav-bar .preamble p {
+        color: aliceblue;
+        font-size: 14px;
+    }
+}
+/* end of media query */
+

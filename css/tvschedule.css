@@ -1,0 +1,284 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body.background-image {
+    background-image: url(../images/triangle.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+/*start  header */
+/* register page */
+#topnav .topnav-bar .search-container{
+    float:right;
+    margin-top: 6px;
+    margin-right: 28px;
+}
+#topnav .topnav-bar .preamble {
+    display: flex;
+    float: right;
+    margin-top: 8px;
+}
+#topnav .topnav-bar .preamble p{
+    color:aliceblue;
+    margin-right: 25px;
+}
+#topnav .topnav-bar .preamble a{
+    text-decoration: none;
+}
+#topnav .topnav-bar .social-media-logo {
+    float: right;
+    margin-top: 8px;
+}
+#topnav .topnav-bar{
+    background-color:#f7057e;
+    height: 48px;
+}
+#topnav .topnav-bar i.fa.fa-facebook-square,#topnav .topnav-bar  i.fa.fa-twitter-square{
+    color: aliceblue;
+    margin-right: 31px;
+    font-size: 28px;
+}
+/* end of register page */
+/* start navbar */
+ul.navbar-nav {
+    margin-left: auto;
+}
+ li.nav-item {
+   margin-left: 51px;
+}
+#header .navbar{
+    background-color: #ffffff;
+    width: 100%;
+}
+/* end of navbar */
+/* triangle */
+.header-triangle{
+    width: 14%;
+    margin-top: -109px;
+    position: absolute;
+}
+/* triangle */
+/* end header */
+p.date {
+    display: inline-block;
+}
+h1.schedule{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 26px;
+}
+.container.sched-day-selector {
+    background-color: #dede1a;
+    width: auto;
+    height: 55px;
+}
+img.image1 {
+    position: relative;
+}
+a.icon{
+    position: absolute;
+    margin-top: 132px;
+    margin-left: 142px;
+    color:#ffffff;
+   
+}
+.block1 {
+    display: inline-flex;
+}
+
+img.image1 {
+    position: relative;
+    height: 200px;
+    margin-left: 54px;
+    margin-top: 29px;
+}
+a.icon {
+    position: absolute;
+    margin-top: 115px;
+    color: #ffffff;
+    margin-left: 148px;
+}
+p.time1 {
+    font-size: 23px;
+    color: #ffffff;
+}
+.title {
+    margin-left: 132px;
+    margin-top: 86px;
+    font-size: 23px;
+}
+p.program1 {
+    color: #f7057e;
+}
+p.more {
+    color: grey;
+    font-size: 16px;
+}
+.footer-logo{
+    height: 50px;
+    margin-top: 13px;
+}
+img.foot-img1 {
+    height: 90px;
+    width: 142px;
+}
+img.foot-img2 {
+    height: 90px;
+    width: 142px;
+}
+div#footer-section {
+    margin-top: 75px;
+    background-color: #f7057e;
+}
+.news-list1 {
+    display: inline-flex;
+}
+.news-list2 {
+    display: inline-flex;
+}
+#footer-section .row{
+    margin-left: auto;
+}
+p.footer-headline {
+    font-size: 17px;
+    margin-top: 12px;
+    color: #ffffff;
+}
+p.footer-content {
+    font-size: 17px;
+}
+h5.navigation {
+    font-size: 17px;
+    color: #ffffff;
+    text-align: center;
+}
+ul.navbar-list-items {
+    list-style-type: none;
+    line-height: 45px;
+    text-align: center;
+}
+#footer-section ul.navbar-list-items li a{
+    color:#000000;
+}
+h5.news-title {
+    font-size: 17px;
+    color: #ffffff;
+}
+p.list-content1 {
+    margin-left: 12px;
+    font-size: 17px;
+    color: #000000;
+}
+p.list-content2 {
+    margin-left: 12px;
+    font-size: 17px;
+    color: #000000;
+}
+h5.foot-contact {
+    color: #ffffff;
+    font-size: 17px;
+}
+p.foot-contact-heading {
+    color: #000000;
+    font-size: 17px;
+    line-height: 66px;
+}
+p.footer-contact-address {
+    font-size: 18px;
+}
+#footer-section .phone-no{
+    font-size: 15px;
+}
+.footer-facebook-icon{
+    width: 4%;
+    
+}
+.footer-twitter-icon{
+    width: 4%;
+    
+}
+.footer-insta-icon{
+    width: 4%;
+    
+}
+.footer-youtube-icon{
+    width: 5%;
+    
+}
+.socialmedia-link {
+    padding-left: 91px;
+}
+.copyrights{
+    padding-left: 60px;
+}
+div#footer-bottom {
+    background-color: #ffffff;
+}
+p.copyrights {
+    font-size: 17px;
+}
+/* media query */
+/* mobile phones */
+@media (max-width: 480px) { 
+    .header-triangle{
+        display:none;
+    }
+    #topnav .topnav-bar .search-container{
+        display:none;
+    }
+    img.image1 {
+        position: relative;
+        height: 173px;
+        margin-left: 23px;
+        margin-top: 29px;
+    }  
+    .title {
+        margin-left: 40px;
+        margin-top: 65px;
+        font-size: 16px;
+    }
+    a.icon {
+        position: absolute;
+        margin-top: 96px;
+        color: #ffffff;
+        margin-left: 98px;
+    }
+} 
+/* tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+    .header-triangle{
+        display:none;
+    }
+    
+} 
+/* ipad  */
+@media (min-width: 768px) and (max-width: 1024px){ 
+    .header-triangle{
+        display:none;
+    }
+    li.nav-item {
+        margin-left: 24px;
+    }
+} 
+
+/* ipad pro */
+@media (min-width: 1024px) and (max-width: 1366px){
+    li.nav-item {
+        margin-left: 54px;
+    }
+    .title {
+        margin-left: -203px;
+        margin-top: 249px;
+        font-size: 23px;
+    }
+}
+    /* galaxy S5 */
+@media (min-width: 360px) and (max-width: 640px){
+    #topnav .topnav-bar .preamble p {
+        color: aliceblue;
+        font-size: 14px;
+    }
+}
+/* media query */

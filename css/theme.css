@@ -1,0 +1,28 @@
+h1{
+    
+    /* color:linear-gradient(to bottom, #33ccff 0%, #3366ff 100%);   */
+    text-shadow: 5px 4px #1f29e7;
+    color:#95F418;
+    text-align:center;
+    margin-top:200px;
+    font-size:50px;
+   
+}
+p{
+    text-shadow: 5px 4px #414b7b;
+    color:rgb(2, 249, 253);
+    text-align:center;
+    font-size:30px;
+
+}
+.sub{
+    color:rgb(244, 24, 134);
+    text-shadow: 2px 2px #1f8ae7;
+    font-size:30px;
+    float:right;
+}
+body{
+    background-image:url("cracks.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}

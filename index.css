@@ -1,0 +1,82 @@
+.facebook{
+    height:40px;
+    float:right; 
+    margin-right: 25px;
+    margin-top: 7px;
+}
+.twitter{
+    height:38px;
+    float:right;
+    margin-right: 19px;
+    margin-top: 7px;
+}
+p.register{
+    text-decoration:none;
+    display:inline-block;
+    color:black;
+}
+
+p.login{
+    text-decoration:none;
+    display:inline-block;
+    margin-right: 12px;
+    color:black;
+}
+.topnav-text{
+    float: right;
+    margin-top: 17px;
+}
+.topnav .search-container { float: right;
+    margin-top: 4px;}
+
+.topnav input[type=text]{
+  padding: 3px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 100px;
+  background: #f8aad4;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 3px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ffffff;
+  font-size: 17px;
+  border: black;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+.topnav{
+    background-color:#f7057e;
+    height: 50px;
+    margin: 0px;
+    position: relative;
+}
+nav#navbar-header1 {
+    margin-top: -21px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+ul.nav.navbar-nav.navbar1 {
+    float: right;
+}
+.header .navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+    padding-left: 93px;
+}
+
+.header-triangle{
+    width: 14%;
+    margin-top: -125px;
+    position: absolute;
+}
+.header .navbar-inverse .navbar-nav>li>a:hover {
+    color: red;
+    background-color: transparent;
+}
